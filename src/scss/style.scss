@@ -1,0 +1,38 @@
+@import "./fonts.scss";
+@import 'base/variables';
+
+* {
+  font-family: 'MuseoModerno', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #0D0D0D;
+  text-align: center;
+
+  &_white {
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+}
+
+@import 'UI/buttons';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/form';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'media';
